@@ -120,7 +120,7 @@ section{
 
 .home-content{
     font-size: var(--small-font);
-    font-weight: 700;
+    font-weight: 500;
 
 }
 
@@ -144,7 +144,7 @@ section{
 }
 
 .change-text h3 .word .letter{
-    transform-origin: center center 25px ;
+    transform-origin: center center 25px;
 
 }
 
@@ -172,7 +172,8 @@ section{
     justify-content: space-between;
     align-items: center;
     width: 300px;
-    margin: 1rem 0 2rem;
+    gap: 0.5rem;
+    margin: 1rem 0 3rem;
 
 }
 
@@ -188,6 +189,7 @@ section{
     font-size: .9rem;
     color: #bdbdbd;
     margin-left: 6px;
+    
 }
 
 .btn-box{
@@ -249,10 +251,12 @@ a.btn :nth-child(2)::before{
 
 
 .social-icons{
-    margin-top: 8rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
-    width: 220px;
+    gap: 10px;
+    /* width: 220px; */
+    width: 320px;
     height: 40px;
 
 }
@@ -276,6 +280,7 @@ a.btn :nth-child(2)::before{
 
 .social-icons a i{
     font-size: 2rem;
+   
 }
 
 .social-icons a:hover{
@@ -340,14 +345,6 @@ a.btn :nth-child(2)::before{
     grid-gap: 2em;
     background: var(--secon-bg-color);
 }
-
-
-
-
-
-
-
-
 
 
 .about .img-about{
@@ -433,7 +430,6 @@ a.btn :nth-child(2)::before{
     font-size: 1.5rem;
     font-weight: 600;
 }
-
 
 /* servics section---------------------------- */
 
@@ -742,6 +738,7 @@ a.btn :nth-child(2)::before{
 
     }
 }
+
 
 
 
