@@ -68,16 +68,3 @@ circles.forEach(elem=>{
 
 })
 
-// Toggle the accordion content visibility
-// document.getElementById('read-more-btn').addEventListener('click', function(e) {
-//     e.preventDefault(); // Prevent the default anchor behavior
-//     var accordionContent = document.querySelector('.accordion-content');
-//     accordionContent.classList.toggle('open'); // Toggle the visibility of the content
-
-//     // Change the button text when clicked
-//     if (accordionContent.classList.contains('open')) {
-//         this.innerHTML = "Read Less!";
-//     } else {
-//         this.innerHTML = "Read More!";
-//     }
-// });
