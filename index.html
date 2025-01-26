@@ -5,410 +5,523 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content"width=device-width, initial-scale=1.0">
-    <title> Towhid || Portfolio </title>
+    <title> Towhid|Portfolio </title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
     <!--Header section -->
-    <header>
-        <div class="logo"><span>Md Towhidul Islam</span></div>
-        <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Areas</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div id="menu-icon" class="bx bx-menu"></div>
+    <header class="active">
+            <a href="#" class="logo">Portfolio.</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#service">Services</a>
+                <a href="#resume">Resume</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
     </header>
 
-    <!--home Section-->
-    <section id="home" class="home">
-        <div class="home-content">
-            <h1>Hi! I'm Towhid</h1>
-            <div class="change-text">
-                <h3>And I'm </h3>
-                <h3>
-                
-                <span class="word">WordPress&nbsp; Developer</span>
-                <!--<span class="word">Backend&nbsp;Programmer</span>
-                <span class="word">Frontend&nbsp;Programmer</span>
-                <span class="word">Flutter&nbsp; specialist</span>-->
-                <span class="word">Jr.&nbsp; Django&nbsp; Developer</span>
-                <span class="word">SEO&nbsp; Specialist</span>
-                <span class="word">Digital&nbsp; Marketer</span>
-                </h3>
+    <!-- bars background  -->
+     <div class="bars-box active">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+     </div>
+
+    <!-- home section -->
+     <section class="home  active">
+        <div class="home-details">
+            <h1>Md Towhidul Islam</h1>
+            <h2>I'm 
+
+                <!-- <span style="--i:5;" data-text="Meta Ads Expert">Meta Ads Expert</span> -->
+                <span style="--i:4;" data-text="WordPress Developer">WordPress Developer</span>
+                <span style="--i:3;" data-text="Jr.Django Developer">Jr.Django Developer</span>
+                <span style="--i:2;" data-text="SEO Expert">SEO Expert</span>
+                <span style="--i:1;" data-text="Web Deginer">Web Deginer</span>
+
+            </h2>
+            <p>I’m Towhid, a skilled WordPress website developer and SEO expert, helping businesses build impactful online presences. Alongside mastering SEO strategies, I’m expanding my expertise by learning Django to deliver even more dynamic and robust solutions.</p>
+
+
+            <div class="btn-sci">
+                <a href="https://drive.google.com/file/d/1y5HDjZBQXiDhZubRMS6SizbizRhJmjB8/view?usp=sharing" class="btn">View CV</a>
+                <div class="sci">
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><i class="bx bxl-behance"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/home.png" alt="My Image">
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- service section      -->
+    <section class="service">
+        <h2 class="heading">My <span>Service</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <div class="icon">
+                    <i class="bx bx-code-alt"></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sunt recusandae veniam quis amet assumenda? Rem pariatur doloribus consectetur tempora ipsum labore, iure repellendus ex quas, mollitia rerum a explicabo!</p>
             </div>
 
-            <p>
-                <br/>Welcome to my portfolio website!<br/><br/>
-
-                Hi, I'm Towhid, a passionate web developer with expertise in WordPress & now learning Django by Python And Js. I have extensive knowledge of programming languages like Python, C, Java. As a versatile professional, I'm not only a WordPress Developer but also a skilled an SEO specialist.
-                <br/><br/>As a WordPress Developer and SEO Specialist, I design user-friendly websites that are visually appealing and fully optimized for higher search engine rankings.<br>
-                <br/>Thank you for visiting my portfolio website. Let's create something remarkable together!
-
-            </p>
-
-            <div class="info-box">
-                <div class="email-info">
-                    <h5>E-mail :</h5>
-                    <span><i>mdtowhidulislam871@gmail.com</i></span>
+            <div class="service-box">
+                <div class="icon">
+                    <i class="bx bx-code-alt"></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
                 </div>
-                <br>
-                <div class="behance-info">
-                    <h5>Behance :</h5>
-                    <a href="https://www.behance.net/towhid871"><span>behance\towhid871</span></a>
+                <h3>Website SEO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sunt recusandae veniam quis amet assumenda? Rem pariatur doloribus consectetur tempora ipsum labore, iure repellendus ex quas, mollitia rerum a explicabo!</p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="bx bx-code-alt"></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>WordPress Website Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sunt recusandae veniam quis amet assumenda? Rem pariatur doloribus consectetur tempora ipsum labore, iure repellendus ex quas, mollitia rerum a explicabo!</p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="bx bx-code-alt"></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>Product Management Idea</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sunt recusandae veniam quis amet assumenda? Rem pariatur doloribus consectetur tempora ipsum labore, iure repellendus ex quas, mollitia rerum a explicabo!</p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="bx bx-code-alt"></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>Django Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sunt recusandae veniam quis amet assumenda? Rem pariatur doloribus consectetur tempora ipsum labore, iure repellendus ex quas, mollitia rerum a explicabo!</p>
+            </div>
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="bx bx-code-alt"></i>
+                    <a href="#"><i class="bx bx-arrow-back"></i></a>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sunt recusandae veniam quis amet assumenda? Rem pariatur doloribus consectetur tempora ipsum labore, iure repellendus ex quas, mollitia rerum a explicabo!</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- resume section      -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skiils</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-details exprience">
+                    <h2 class="heading"> My <span>Experience</span></h2>
+                    <p class='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-details education">
+                    <h2 class="heading"> My <span>Educations</span></h2>
+                    <p class='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam libero quia accusamus recusandae asperiores quos. Ipsam, voluptates necessitatibus, perspiciatis, ducimus adipisci perferendis rerum molestiae maiores numquam voluptas a porro corporis.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023-present</p>
+                            <h3>WordPress Website Developer</h3>
+                            <p class="company">A Inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eius, quisquam ipsa illo ducimus minima vel eos accusantium odit, neque at soluta, sunt amet. Eligendi non deserunt quod est reprehenderit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-details skills active">
+                    <h2 class="heading"> My <span>Skills</span></h2>
+                    <p class='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam libero quia accusamus recusandae asperiores quos. Ipsam, voluptates necessitatibus, perspiciatis, ducimus adipisci perferendis rerum molestiae maiores numquam voluptas a porro corporis.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <span>WordPress</span>
+                            <i class='bx bxl-wordpress'></i>
+                        </div>
+
+                        <div class="resume-item">
+                            <span>WordPress</span>
+                            <i class='bx bxl-wordpress'></i>
+                        </div>
+
+                        <div class="resume-item">
+                            <span>WordPress</span>
+                            <i class='bx bxl-wordpress'></i>
+                        </div>
+
+                        <div class="resume-item">
+                            <span>WordPress</span>
+                            <i class='bx bxl-wordpress'></i>
+                        </div>
+
+                        <div class="resume-item">
+                            <span>WordPress</span>
+                            <i class='bx bxl-wordpress'></i>
+                        </div>
+
+                        <div class="resume-item">
+                            <span>WordPress</span>
+                            <i class='bx bxl-wordpress'></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="resume-details about me">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam libero quia accusamus recusandae asperiores quos. Ipsam, voluptates necessitatibus, perspiciatis, ducimus adipisci perferendis rerum molestiae maiores numquam voluptas a porro corporis.</p>
+                    <div class="resume-list">
+
+                        <div class="resume-item">
+                            <p>Name: <span>Md Towhidul Islam</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Gender: <span>Male</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>DOB: <span>30 March 2004</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Status: <span>Single</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>City: <span>Dhaka</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Full Time: <span>Available</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Freelance: <span>Available</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Contact: <span>(+88)0181-678-7871</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Language: <span>Bengali, English, German</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Email: <span>mdtowhidulislam871@gmail.com</span></p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- portfolio section      -->
+    <section class="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-details active">
+                    <p class="number">01</p>
+                    <h3>Fronted Project</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+
+                    <div class="git-live">
+                        <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+
+                </div>
+
+                <div class="portfolio-details">
+                    <p class="number">02</p>
+                    <h3>Fronted Project</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+
+                    <div class="git-live">
+                        <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+
+                </div>
+
+                <div class="portfolio-details">
+                    <p class="number">03</p>
+                    <h3>Fronted Project</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+
+                    <div class="git-live">
+                        <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+
+                </div>
+
+                <div class="portfolio-details">
+                    <p class="number">04</p>
+                    <h3>Fronted Project</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+
+                    <div class="git-live">
+                        <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+
+                </div>
+
+                <div class="portfolio-details">
+                    <p class="number">05</p>
+                    <h3>Fronted Project</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+
+                    <div class="git-live">
+                        <a href="#"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href="#"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <!-- image-carosol -->
+                 <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="images/portfolio1.jpg">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/portfolio2.jpg">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/portfolio3.jpg">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/portfolio4.jpg">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/portfolio5.jpg">
+                        </div>
+
+                    </div>
+                 </div>
+
+                 <div class="navigation">
+                    <button class="arrow-left disabled"><i class="bx bx-chevron-left"></i></button>
+                    <button class="arrow-right"><i class="bx bx-chevron-right"></i></button>
+                 </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!-- contact -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's work Together</h2>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+                <div class="contact-details">
+                    <i class="bx bxs-map"></i>
+                    <div class="details">
+                            <p>Phone</p>
+                            <p>+8801 816 787871</p>
+                    </div>
+                </div>
+
+                <div class="contact-details">
+                    <i class="bx bxs-map"></i>
+                    <div class="details">
+                            <p>Email</p>
+                            <p>+8801 816 787871</p>
+                    </div>
+                </div>
+
+                <div class="contact-details">
+                    <i class="bx bxs-map"></i>
+                    <div class="details">
+                            <p>Address</p>
+                            <p>+8801 816 787871</p>
+                    </div>
+                </div>
+
+                <div class="contact-details">
+                    <i class="bx bxs-map"></i>
+                    <div class="details">
+                            <p>Phone</p>
+                            <p>+8801 816 787871</p>
+                    </div>
                 </div>
                     
-            </div>
-            
-            <div class="btn-box">
-                <a href="https://drive.google.com/file/d/1y5HDjZBQXiDhZubRMS6SizbizRhJmjB8/view?usp=sharing" class="btn">Download CV</a><br/>
-                <a href="#contact" class="btn">Hire Me Now!</a>
-
-            </div>
-            <br/>
-            
-
-            <div class="social-icons">
-                <a href="https://www.facebook.com/mdtowhidulislam871"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="https://www.instagram.com/jr_towhid/"><i class='bx bxl-instagram-alt' ></i></i></a>
-                <a href="https://www.twitter.com/"><i class='bx bxl-twitter' ></i></a>
-                <a href="https://www.linkedin.com/in/mdtowhidul-islam/"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://wa.me/+8801816787871"><i class='bx bxl-whatsapp' ></i></a>
-                <a href="https://github.com/Md-towhidul-Islam-871"><i class='bx bxl-github' ></i></a>
-            </div>
-        </div>
-
-        <div class="home-image">
-            <div class="img-box">
-                <img src="images/man3.png" alt="image">
+                
+                    
+                
             </div>
 
-            <div class="liquid-shape">
-                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-                    <path fill="#12f7ff">
-                        <animate attributeName="d"
-                            dur="20000ms"
-                            repeatCount="indefinite"
-                            values="
-                            M415.5,312.5Q399,375,345.5,431.5Q292,488,219.5,458Q147,428,100,375Q53,322,50,249Q47,176,103.5,135Q160,94,225.5,55.5Q291,17,364,55Q437,93,434.5,171.5Q432,250,415.5,312.5Z;
-
-                            M433,323.5Q425,397,355.5,427Q286,457,209,455.5Q132,454,95,387Q58,320,60,250.5Q62,181,97.5,114.5Q133,48,209.5,47Q286,46,340.5,87Q395,128,418,189Q441,250,433,323.5Z;
-
-                            M420,310Q393,370,343,430.5Q293,491,223.5,453.5Q154,416,115,364.5Q76,313,51.5,241Q27,169,78,104.5Q129,40,205.5,54.5Q282,69,347.5,91Q413,113,430,181.5Q447,250,420,310Z;
-
-                            M464.5,325.5Q430,401,357.5,426Q285,451,223,427Q161,403,110.5,361Q60,319,51,246.5Q42,174,101,134Q160,94,225.5,57Q291,20,365,55.5Q439,91,469,170.5Q499,250,464.5,325.5Z;
-
-                            M435.5,317Q410,384,345.5,404Q281,424,209,435Q137,446,105,380Q73,314,53,242.5Q33,171,86.5,115.5Q140,60,211.5,60.5Q283,61,352,84Q421,107,441,178.5Q461,250,435.5,317Z;
-
-                            M421.5,310.5Q394,371,343.5,432.5Q293,494,224.5,453.5Q156,413,103.5,367.5Q51,322,59,252.5Q67,183,100,115.5Q133,48,209.5,45.5Q286,43,339.5,86.5Q393,130,421,190Q449,250,421.5,310.5Z;
-
-                            M414.5,312Q397,374,344.5,432Q292,490,227,446Q162,402,113,360Q64,318,51.5,245.5Q39,173,94,124Q149,75,218.5,54.5Q288,34,349.5,74.5Q411,115,421.5,182.5Q432,250,414.5,312Z;
-
-                            M441.5,314Q403,378,345,418Q287,458,214,448.5Q141,439,112.5,375Q84,311,54.5,239.5Q25,168,79,107.5Q133,47,209.5,47Q286,47,357,74Q428,101,454,175.5Q480,250,441.5,314Z;
-
-                            M429,319Q415,388,354,440Q293,492,210.5,476.5Q128,461,101.5,387.5Q75,314,79.5,251.5Q84,189,107,115Q130,41,209,38Q288,35,347.5,76.5Q407,118,425,184Q443,250,429,319Z;
-
-                            M415.5,312.5Q399,375,345.5,431.5Q292,488,219.5,458Q147,428,100,375Q53,322,50,249Q47,176,103.5,135Q160,94,225.5,55.5Q291,17,364,55Q437,93,434.5,171.5Q432,250,415.5,312.5Z;
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Phone" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
 
 
-                            "
+                    </div>
 
-                        ></animate>
-
-                    </path>
-                  </svg>
-            </div>
-
-            <div class="liquid-shape">
-                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-                    <path fill="#12f7ff">
-                        <animate attributeName="d"
-                            dur="20000ms"
-                            repeatCount="indefinite"
-                            values="
-                            M415.5,312.5Q399,375,345.5,431.5Q292,488,219.5,458Q147,428,100,375Q53,322,50,249Q47,176,103.5,135Q160,94,225.5,55.5Q291,17,364,55Q437,93,434.5,171.5Q432,250,415.5,312.5Z;
-
-                            M433,323.5Q425,397,355.5,427Q286,457,209,455.5Q132,454,95,387Q58,320,60,250.5Q62,181,97.5,114.5Q133,48,209.5,47Q286,46,340.5,87Q395,128,418,189Q441,250,433,323.5Z;
-
-                            M420,310Q393,370,343,430.5Q293,491,223.5,453.5Q154,416,115,364.5Q76,313,51.5,241Q27,169,78,104.5Q129,40,205.5,54.5Q282,69,347.5,91Q413,113,430,181.5Q447,250,420,310Z;
-
-                            M464.5,325.5Q430,401,357.5,426Q285,451,223,427Q161,403,110.5,361Q60,319,51,246.5Q42,174,101,134Q160,94,225.5,57Q291,20,365,55.5Q439,91,469,170.5Q499,250,464.5,325.5Z;
-
-                            M435.5,317Q410,384,345.5,404Q281,424,209,435Q137,446,105,380Q73,314,53,242.5Q33,171,86.5,115.5Q140,60,211.5,60.5Q283,61,352,84Q421,107,441,178.5Q461,250,435.5,317Z;
-
-                            M421.5,310.5Q394,371,343.5,432.5Q293,494,224.5,453.5Q156,413,103.5,367.5Q51,322,59,252.5Q67,183,100,115.5Q133,48,209.5,45.5Q286,43,339.5,86.5Q393,130,421,190Q449,250,421.5,310.5Z;
-
-                            M414.5,312Q397,374,344.5,432Q292,490,227,446Q162,402,113,360Q64,318,51.5,245.5Q39,173,94,124Q149,75,218.5,54.5Q288,34,349.5,74.5Q411,115,421.5,182.5Q432,250,414.5,312Z;
-
-                            M441.5,314Q403,378,345,418Q287,458,214,448.5Q141,439,112.5,375Q84,311,54.5,239.5Q25,168,79,107.5Q133,47,209.5,47Q286,47,357,74Q428,101,454,175.5Q480,250,441.5,314Z;
-
-                            M429,319Q415,388,354,440Q293,492,210.5,476.5Q128,461,101.5,387.5Q75,314,79.5,251.5Q84,189,107,115Q130,41,209,38Q288,35,347.5,76.5Q407,118,425,184Q443,250,429,319Z;
-
-                            M415.5,312.5Q399,375,345.5,431.5Q292,488,219.5,458Q147,428,100,375Q53,322,50,249Q47,176,103.5,135Q160,94,225.5,55.5Q291,17,364,55Q437,93,434.5,171.5Q432,250,415.5,312.5Z;
-
-
-                            "
-
-                        ></animate>
-
-                    </path>
-                  </svg>
-            </div>
-
-            
-            
-        </div>
+                    <button type="submit" class="btn">Send Message</button>
 
 
 
-            
-
-
-            
-
-
-
-    </section>
-
-    <!--about section-->
-    <section id="about" class="about">
-        <div class="img-about">
-            <img src="images/about-me-pic2.png" alt="image2">
-            <div class="info-about1">
-                <span>3+</span>
-                <p>Years of Experience</p>
-            </div>
-            <br/>
-            <div class="info-about2">
-                <span>15+</span>
-                <p>Project Complete</p>
-            </div>
-            <br/>
-            <div class="info-about3">
-                <span>6+</span>
-                <p>Happy Cionts</p>
-            </div>
-            <br/>
-        </div>
-
-        <div class="about-content">
-            <span>Let Me Introduce Myself</span>
-            <h2>About Me</h2>
-            <h4>A story of good</h4>
-            <p>I'm Towhid, a passionate WordPress Developer and SEO Specialist with expertise in creating user-friendly websites and optimizing them for top search engine performance. I thrive on crafting impactful digital solutions and delivering exceptional results.</p>
-
-
-            <div class="btn-box">
-                <!-- <a href="#" class="btn">Read More!</a> -->
-                <a class="btn">Read More!</a>
-
+                </form>
             </div>
         </div>
     </section>
 
-<!--section end -->
 
-<section id="services" class="services">
-    <div class="main-text">
-        <span>What I'll do for You?</span>
-        <h2>My Services</h2>
-    </div>
-
-    <div class="section-services">
-        <div class="service-box">
-            <i class='bx bxs-layer service-icon'></i>
-            <h3>Graphic Designer</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi eaque nulla a, optio itaque facere atque obcaecati, eveniet corporis eum voluptate sunt? Excepturi ad at totam ab aut nisi.
-            </p>
-            <div class="btn-box service-btn">
-                <a href="#" class="btn">Read More</a>
-
-            </div>
-        </div>
-
-
-        <div class="service-box">
-            <i class='bx bx-code-alt service-icon'></i>
-            <h3>Programmer</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi eaque nulla a, optio itaque facere atque obcaecati, eveniet corporis eum voluptate sunt? Excepturi ad at totam ab aut nisi.
-            </p>
-            <div class="btn-box service-btn">
-                <a href="#" class="btn">Read More</a>
-
-            </div>
-        </div>
-
-        <div class="service-box">
-            <i class='bx bx-code-alt service-icon'></i>
-            <h3>Conetnt Writer</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi eaque nulla a, optio itaque facere atque obcaecati, eveniet corporis eum voluptate sunt? Excepturi ad at totam ab aut nisi.
-            </p>
-            <div class="btn-box service-btn">
-                <a href="#" class="btn">Read More</a>
-
-            </div>
-        </div>
-
-        <div class="service-box">
-            <i class='bx bx-desktop service-icon' ></i>
-            <h3>Digital Marketer</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi eaque nulla a, optio itaque facere atque obcaecati, eveniet corporis eum voluptate sunt? Excepturi ad at totam ab aut nisi.
-            </p>
-            <div class="btn-box service-btn">
-                <a href="#" class="btn">Read More</a>
-
-            </div>
-        </div>
-
-        <div class="service-box">
-            <i class='bx bx-code-alt service-icon'></i>
-            <h3>Conetnt Writer</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi eaque nulla a, optio itaque facere atque obcaecati, eveniet corporis eum voluptate sunt? Excepturi ad at totam ab aut nisi.
-            </p>
-            <div class="btn-box service-btn">
-                <a href="#" class="btn">Read More</a>
-
-            </div>
-        </div>
-
-        <div class="service-box">
-            <i class='bx bx-code-alt service-icon'></i>
-            <h3>Conetnt Writer</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi eaque nulla a, optio itaque facere atque obcaecati, eveniet corporis eum voluptate sunt? Excepturi ad at totam ab aut nisi.
-            </p>
-            <div class="btn-box service-btn">
-                <a href="#" class="btn">Read More</a>
-
-            </div>
-        </div>
-
-
-
-
-    </div>
-
-</section>
-
-<!--skills section------------>
-
-<section id="skills" class="skills">
-    <div class="main-text">
-        <span>Technical & Professional</span>
-        <h2>My skills</h2>
-    </div>
-
-    <div class="skill-main">
-        <div class="skill-left">
-            <h3>Technical Skills</h3>
-            
-            
-            <div class="skill-bar">
-                <div class="info">
-                    <p>HTML</p>
-                    <p>72%</p>
-                </div>
-                <div class="bar">
-                    <span class="html"></span>
-                </div>
-            </div>
-
-            <div class="skill-bar">
-                <div class="info">
-                    <p>CSS</p>
-                    <p>80%</p>
-                </div>
-                <div class="bar">
-                    <span class="css"></span>
-                </div>
-            </div>
-
-
-            <div class="skill-bar">
-                <div class="info">
-                    <p>python</p>
-                    <p>89%</p>
-                </div>
-                <div class="bar">
-                    <span class="python"></span>
-                </div>
-            </div>
-
-
-            <div class="skill-bar">
-                <div class="info">
-                    <p>flutter</p>
-                    <p>56%</p>
-                </div>
-                <div class="bar">
-                    <span class="flutter"></span>
-                </div>
-            </div>
-        </div>
-
-
-
-        
-
-
-
-
-        <div class="skill-right">
-            <h3>Professional Skills</h3>
-            <div class="professional">
-                <div class="box">
-                    <!-- <div class="circle" data-dots="80" data-percent="90"></div> -->
-                    <div class="circle">
-                        <div class="point" style="--i:1;"></div>
-                        <div class="point" style="--i:2;"></div>
-                        <div class="point" style="--i:3;"></div>
-                    </div>
-                    <div class="text">
-                        <big>90%</big>
-                        <small>Team Work</small>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="circle" data-dots="80" data-percent="90"></div>
-                    <div class="text">
-                        <big>80%</big>
-                        <small>Team Work</small>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="circle" data-dots="80" data-percent="90"></div>
-                    <div class="text">
-                        <big>90%</big>
-                        <small>Team Work</small>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="circle" data-dots="80" data-percent="90"></div>
-                    <div class="text">
-                        <big>90%</big>
-                        <small>Team Work</small>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-</section>
+    
+    
+    
 
     <script src="script.js"></script>
+
 </body>
 </html>
