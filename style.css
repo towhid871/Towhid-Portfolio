@@ -877,7 +877,7 @@ section.active{
 
 @media screen and (max-width: 768px){
     .home-details h1{
-        font-size: 30px;
+        font-size: 28px;
     }
     #menu-icon{
         display: block;
