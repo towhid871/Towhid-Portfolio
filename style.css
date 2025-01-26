@@ -8,6 +8,7 @@
     border: none;
     outline: none;
     font-family: "Poppins", serif;
+    
 }
 
 :root{
@@ -23,7 +24,7 @@
 
 html{
     font-size: 62.5%;
-    overflow: auto;
+    overflow: auto; /*eta update kora hoisilo*/
 }
 
 body{
