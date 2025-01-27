@@ -925,8 +925,6 @@ section.active{
         gap: 3rem;
     }
 
-
-
     .portfolio-container .portfolio-box:first-child{
         order: 1;
     }
@@ -960,7 +958,6 @@ section.active{
     .resume-details.about .resume-item{
         text-align: center;
     }
-    
 
     .home-details .btn-sci{
         flex-direction: column-reverse;
