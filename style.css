@@ -956,13 +956,11 @@ section.active{
 @media screen and (max-width: 400px){
     .home-details, 
     .resume-box h2, 
-    .resume-box .desc{
+    .resume-box .desc,
+    .resume-details.about .resume-item{
         text-align: center;
     }
-
-    .resume-details.about .resume-item{
-        text-align: left;
-        background: var(--bg-color);
+    
 
     .home-details .btn-sci{
         flex-direction: column-reverse;
