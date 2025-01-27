@@ -925,6 +925,8 @@ section.active{
         gap: 3rem;
     }
 
+
+
     .portfolio-container .portfolio-box:first-child{
         order: 1;
     }
@@ -954,10 +956,13 @@ section.active{
 @media screen and (max-width: 400px){
     .home-details, 
     .resume-box h2, 
-    .resume-box .desc,
-    .resume-details.about .resume-item{
+    .resume-box .desc{
         text-align: center;
     }
+
+    .resume-details.about .resume-item{
+        text-align: left;
+        background: var(--bg-color);
 
     .home-details .btn-sci{
         flex-direction: column-reverse;
