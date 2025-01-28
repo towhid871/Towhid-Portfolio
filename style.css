@@ -24,7 +24,7 @@
 
 html{
     font-size: 62.5%;
-    overflow: auto; /*eta update kora hoisilo*/
+    overflow: hidden; /*eta update kora hoisilo*/
 }
 
 body{
@@ -134,8 +134,8 @@ section{
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    /* margin-bottom: 0;
+    padding-bottom: 0; */
 
 }
 
