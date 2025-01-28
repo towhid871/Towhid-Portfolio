@@ -352,6 +352,8 @@ section.active{
 .service-container .service-box:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
+    /* cursor: pointer; */
+    
 }
 
 .service-box .icon{
@@ -541,6 +543,42 @@ section.active{
 
 }
 
+.resume-item p a{
+    color: var(--main-color);
+}
+
+/*Active container----------------------------------------------------*/
+.resume-list .resume-itemf{
+    background: #023020;
+    border-radius: .8rem;
+    padding: 3rem  2.5rem;
+    /* height: calc((45rem - 2rem) / 2); */
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-itemf .year{
+    color: var(--main-color);
+}
+
+.resume-itemf .company{
+    position: relative;
+    color: var(--main-color);
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.resume-itemf p a{
+    color: var(--main-color);
+}
+/*Active container----------------------------------------------------*/
+
+
+
 .resume-details.skills .resume-list{
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     height: auto;
@@ -717,6 +755,14 @@ section.active{
 }
 
 .portfolio-carousel .img-item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.portfolio-carousel .img-item video{
     display: block;
     width: 100%;
     height: 100%;
