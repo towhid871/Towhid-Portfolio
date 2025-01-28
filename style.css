@@ -25,10 +25,12 @@
 html{
     font-size: 62.5%;
     overflow: hidden; /*eta update kora hoisilo*/
+    overflow-x: hidden;
 }
 
 body{
     color: var(--white-color);
+    overflow-x: hidden;
     
 
 }
