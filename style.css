@@ -136,8 +136,8 @@ section{
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
-    /* margin-bottom: 0;
-    padding-bottom: 0; */
+    /* margin-bottom: 0; */
+    padding-bottom: 0;
 
 }
 
@@ -915,7 +915,8 @@ section.active{
     }
 
     section{
-        padding: 10rem 4% 2rem;
+        /* padding: 10rem 4% 2rem; */
+        padding: 6rem 4% 1rem;
     }
 }
 
