@@ -154,7 +154,7 @@ const arrowRight = document.querySelector('.portfolio-box .navigation .arrow-rig
 const arrowLeft = document.querySelector('.portfolio-box .navigation .arrow-left');
 
 let index = 0; // Current slide index
-const totalSlides = 6; // Total number of slides (adjust based on your carousel)
+const totalSlides = 100; // Total number of slides (adjust based on your carousel)
 
 // Function to update the active portfolio slide
 const activePortfolio = () => {
