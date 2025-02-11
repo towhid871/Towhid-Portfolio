@@ -14,8 +14,8 @@
 :root{
     --bg-color: #1f1f1f;
     --second-bg-color: #323946;
-    /* --main-color: #7cf07c; */
-    --main-color: #004081;
+    --main-color: #7cf07c; /*main*/
+    /* --main-color: #004081; */
     /* --main-color: #ED944D; */
     /* --main-color: blue; */
     --white-color: #fff;
